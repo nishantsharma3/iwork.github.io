@@ -48,6 +48,8 @@ if(acc=="Y" or "y"):
   print("[✓] Attack started successfully")
   print("")
   print("Use [Cntr+x]  To Stop Attack")
+  print("")
+  print("[✓] Mail Send Successfully")
   d=0
   while(d!=i):
     ob.sendmail(a, listOfAddress, message)
